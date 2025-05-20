@@ -14,12 +14,16 @@
 <body>
     <div class="container">
         <h2>Simple Image Editor</h2>
+
         <div class="wrapper">
+
             <div class="editor-panel">
+
                 <div class="filter">
                     <label class="title">Filters</label>
-                    <div class="option">
-                        <button>Brightness</button>
+
+                    <div class="options">
+                        <button class="active">Brightness</button>
                         <button>Saturation</button>
                         <button>Inversion</button>
                         <button>Grayscale</button>
@@ -32,31 +36,41 @@
                         </div>
                         <input type="range" value="100" min="0" max="200">
                     </div>
+
                 </div>
 
                 <div class="rotate">
                     <label class="title">Rotate & Flip</label>
-                    <div class="option">
+
+                    <div class="options">
                         <button><i class="fa-solid fa-rotate-left"></i></button>
+                        <button><i class="fa-solid fa-rotate-right"></i></button>
+                        <button><i class="fa-solid fa-rotate-right"></i></button>
                         <button><i class="fa-solid fa-rotate-right"></i></button>
                     </div>
 
 
                 </div>
+
             </div>
 
             <div class="preview-img">
-                <img src="./Untitled.png" alt="preview-img">
+                <img src="./360_F_517535712_q7f9QC9X6TQxWi6xYZZbMmw5cnLMr279.jpg" height="600px" width="400px" alt="preview-img">
             </div>
+
         </div>
+
         <div class="controls">
             <button class="reset-filter">Reset Filters</button>
+
             <div class="row">
                 <button class="choose-image">Choose Image</button>
                 <button class="save-image">Save Image</button>
                 
             </div>
+
         </div>
+
     </div>
 
 
